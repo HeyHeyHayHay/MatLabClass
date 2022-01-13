@@ -1,0 +1,11 @@
+
+.dat data
+dat can be shared across software. portable
+save filename.dat -ascii
+
+.mat any data type, variable names
+matlab only
+save (filename)
+
+save alldata
+saves all current variables in .mat folder
