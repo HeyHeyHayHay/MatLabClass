@@ -2,7 +2,7 @@
 
 prime = 2
 testNumber = 3;
-testUpTp = 100000
+testUpTp = 100000;
 
 
 while testNumber <= testUpTp
@@ -13,7 +13,7 @@ while testNumber <= testUpTp
     while testFactor <= (testNumber - 1)
 
 
-//%do previous prime in testFactor
+%do previous prime in testFactor
       if mod(testNumber,testFactor) == 0
 
         isPrime = false;
